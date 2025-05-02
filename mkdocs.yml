@@ -1,0 +1,43 @@
+site_name: MAP / Catalist Integration
+site_url: https://memetic-activation-platform.github.io/docs-map-catalist/
+repo_url: https://github.com/memetic-activation-platform/docs-map-catalist
+edit_uri: edit/main/docs/
+
+theme:
+  name: material
+  features:
+    - navigation.instant
+    - search.highlight
+    - navigation.top
+    - navigation.footer
+    - content.action.edit
+  palette:
+    - scheme: default
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-night
+        name: Switch to dark mode
+    - scheme: slate
+      primary: indigo
+      accent: cyan
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to light mode
+
+plugins:
+  - search
+
+markdown_extensions:
+  - toc:
+      permalink: true
+  - admonition
+  - footnotes
+  - pymdownx.details
+  - pymdownx.superfences
+  - pymdownx.highlight
+  - pymdownx.snippets:
+      base_path: docs
+
+nav:
+  - Integration Spaces: spaces.md
