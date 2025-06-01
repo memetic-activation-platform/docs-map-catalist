@@ -16,7 +16,7 @@ Agents interact using **personas**, which are **ephemeral key pairs**:
 
 To prevent cross-correlation, each inquiry or expression in the Exosphere should use a distinct persona. These identities are managed automatically by the MAP infrastructure.
 
-This design reflects **Herbert Simon’s regent choice pattern**: identities are revealed only after sufficient mutual trust has been established.
+This design reflects **Simon Grant's RegenCHOICE pattern**: identities are revealed only after sufficient mutual trust has been established.
 
 ---
 
